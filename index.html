@@ -1,7 +1,7 @@
 <html>
   <script>
-  (function(){
-    console.log("Hello");
-  })();
+    (function(a){
+      console.log(a === window); //Returns 'true'
+    })(window);
   </script>
 </html>
